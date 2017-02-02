@@ -12,5 +12,13 @@
   "dependencies": {
     "ava": "^0.18.0",
     "tap-xunit": "^1.7.0"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ],
+    "source": [
+      "**/*.{js,jsx}"
+    ]
   }
 }
