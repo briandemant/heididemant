@@ -1,0 +1,16 @@
+{
+  "name": "heididemant",
+  "version": "1.0.0",
+  "description": "Website for a friend",
+  "main": "index.js",
+  "repository": "git@github.com:briandemant/heididemant.git",
+  "author": "Brian Demant <brian.demant@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava --tap | tap-xunit"
+  },
+  "dependencies": {
+    "ava": "^0.18.0",
+    "tap-xunit": "^1.7.0"
+  }
+}
