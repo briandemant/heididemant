@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "ava",
-    "circleci": "ava --tap | tap-xunit"
+    "circleci": "ava --tap | tap-xunit > junit/test-results.xml"
   },
   "dependencies": {
     "ava": "^0.18.0",
