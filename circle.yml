@@ -1,0 +1,3 @@
+test:
+  override:
+    - mkdir $CIRCLE_TEST_REPORTS/junit/ && npm run circleci > $CIRCLE_TEST_REPORTS/junit/test-results.xml
