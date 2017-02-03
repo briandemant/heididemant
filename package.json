@@ -16,6 +16,9 @@
     "express": "^4.14.1",
     "tap-xunit": "^1.7.0"
   },
+  "engines": {
+    "node": ">=7.5"
+  },
   "ava": {
     "files": [
       "test/*.js"
