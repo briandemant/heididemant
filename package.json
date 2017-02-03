@@ -7,7 +7,8 @@
   "author": "Brian Demant <brian.demant@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "ava --tap | tap-xunit",
+    "test": "ava",
+    "snapci": "ava -v",
     "circleci": "ava --tap | tap-xunit > test-results.xml"
   },
   "dependencies": {
