@@ -8,10 +8,13 @@ var port = process.env.PORT || 8080;
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
-// set the home page route
-app.get('/', function(req, res) {
-	res.send('Hello World!')
-})
+// make express look in the public directory for assets (css/js/img)
+app.use(express.static(__dirname + '/template'));
+
+// // set the home page route
+// app.get('/', function(req, res) {
+// 	res.send('Hello World!')
+// })
 
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
