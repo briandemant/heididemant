@@ -1,0 +1,93 @@
+@import '_variables';
+@import '_bootstrap';
+//@import '_template';
+
+#ignore-rest {
+	//visibility: hidden;
+	display: none;
+}
+
+body {
+	font-size: 15px;
+	line-height: 1.52;
+	color: @text-color;
+	font-size: 16px;
+	font-family: @font-family-primary;
+	font-weight: 400;
+}
+
+/**  Navigation bar **************************************************************************/
+.navbar-default .navbar-brand {
+	color: @brand-primary;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.navbar-default {
+	background-color: @body-bg;
+}
+
+/**  section : ALL ******************************************************************************/
+section {
+	.tag-line {
+		display: inline-block;
+	}
+	@media (max-width: 785px) {
+		.tag-line {
+			display: block;
+		}
+	}
+	//div { 
+		box-shadow: 2px 2px 2px #444;
+	//}
+}
+
+/**  section : welcome **************************************************************************/
+
+#welcome {
+	margin-top: 50px;
+	padding: 40px 0 25px 0;
+	font-family: @font-family-headline;
+	font-weight: @font-weight-headline-bold;
+	background-color: @section-bg-color-1;
+
+	h1 {
+		color: @brand-primary;
+		font-family: @font-family-headline;
+			font-weight: @font-weight-headline-bold;
+	}
+	#heidi-img {
+		border-radius: 50%;
+		//border: 1px solid #aaa;
+		box-shadow: 0 0 20px #888;
+		overflow: hidden;
+		width: 120px;
+		height: 129px;
+		margin: 0 auto;
+		font-size: 0;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+}
+
+.section-1 { background-color: @section-bg-color-1; } 
+.section-2 { background-color: @section-bg-color-2;  }
+.section-3 { background-color: @section-bg-color-3; color:#fff;}
+.section-4 { background-color: @section-bg-color-4; }
+
+//.round {
+//	border-radius: 50%;
+//	overflow: hidden; 
+//}
+//
+//.round img {
+//	display: block;
+//	/* Stretch 
+//			height: 100%;
+//			width: 100%; */
+//	min-width: 100%;
+//	min-height: 100%;
+//}

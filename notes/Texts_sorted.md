@@ -1,36 +1,40 @@
-Professionel rådgivning af psykoterapeut studerende heidi demant
-
-Jeg tilbyder	
+#### Jeg tilbyder	
 - Rådgivning af familier, par, unge, børn og individuelt.
 - Rådgivning til familier, hvor jeg kommer på besøg i hjemmet.
-- Komplet rådgivningsforløb til institutioner.
-- (Psykoterapi til studiepris)(skal først tilføjes senere)
+- Komplet rådgivningsforløb til institutioner. 
+
+-----
 
 Jeg tager udgangspunkt i den narrative og systemiske tilgang.
+
 Narrativ: Væk fra at problemet bunder i indre omstændigheder
 Ved eget selv, men problemet er problemet og personen
 Er personen.
+
 Systemisk: Problemet tilhører ikke individet men opstår i sociale samspil.
 Kigger på relationer/samspillet.
 
-Rådgiver om bl.a.   
-	-	Børneopdragelse. 
-	-	Oplever du vanskeligheder eller konflikter i dine relationer - familier, venner, 
-		parforhold og job.
-	-	Føler du dig tit misforstået.
-	-	Lav selvværd - oplever svære følelser - kritiske tanker om dig selv.
-	-	Er der beslutninger der skal tages, men modet svigter.
-	-	Føler du dig stresset i privatlivet eller på arbejdet.
-	-	Føler du en indre uro eller tomhedsfølelse, men ikke kan sætte ord på hvad det er.
+-----
 
+#### Priser: 
 
-Via rådgivning stiller jeg spørgsmål som giver dig/i redskaber til at se nye muligheder, 
-blive bevidst om egne kompetencer og kan få troen og håbet tilbage.
-For mig er du/i eksperten i eget liv og du/i vil finde din/jeres egen vej at gå via samtale 
-og refleksion med mig.
-Lær at forstå hvad du selv og andre tænker og føler - se dig selv udefra.
-Fremme og skabe trivsel, sætte reflekterende tanker i gang, som kan skabe udvikling - sammen 
-finde nye veje at gå.
+- Individuelt : 700 kr
+- Familier og par : 900 kr
+- Institutioner : efter aftale
+
+-----
+
+#### Rådgiver om bl.a.   
+-	Børneopdragelse. 
+-	Oplever du vanskeligheder eller konflikter i dine relationer - familier, venner, 
+	parforhold og job.
+-	Føler du dig tit misforstået.
+-	Lav selvværd - oplever svære følelser - kritiske tanker om dig selv.
+-	Er der beslutninger der skal tages, men modet svigter.
+-	Føler du dig stresset i privatlivet eller på arbejdet.
+-	Føler du en indre uro eller tomhedsfølelse, men ikke kan sætte ord på hvad det er.
+
+-----
 
 #### Rådgivning til familier, par, unge, børn og individuelt.	
 -	Foregår i egne lokaler.
@@ -47,10 +51,7 @@ finde nye veje at gå.
 -	Jeg kigger på struktur, organisering, pædagogik, børnefællesskaberne, samspillet/relationerne 
 	mellem ledelse/personale, personale/personale, barn/barn, personale/barn.
 
-Kontakt: Heidi Demant, adresse ?, tlf 41 17 39 21, Åbningstider: Efter aftale.
-
-Priser: Individuelt 700kr, Familier og par 900kr. Institutioner (skal undersøges)
-
+-----
 
 Om mig: 
 Mine værdier: Ærlig, engageret, respekt, ydmyghed, oprigtig interesseret, troværdighed 
@@ -90,4 +91,22 @@ Har arbejdet som regionspædagog hvor jeg har erfaring med at yder pædagogisk stø
 rådgivning til forskellige børnehuse. Rådgiver personalet og daglig leder i forhold til 
 pædagogik, inkluderende læringsmiljøer - struktur og indretning. Vejleder forældrene i 
 forhold til specifikke udfordringer fx børneopdragelse.
+
+Via rådgivning stiller jeg spørgsmål som giver dig/i redskaber til at se nye muligheder, 
+blive bevidst om egne kompetencer og kan få troen og håbet tilbage.
+For mig er du/i eksperten i eget liv og du/i vil finde din/jeres egen vej at gå via samtale 
+og refleksion med mig.
+
+Lær at forstå hvad du selv og andre tænker og føler - se dig selv udefra.
+Fremme og skabe trivsel, sætte reflekterende tanker i gang, som kan skabe udvikling - sammen 
+finde nye veje at gå.
+
+
+-----
+
+Kontakt: Heidi Demant, adresse ?, tlf 41 17 39 21, Åbningstider: Efter aftale.
+
+
+
+
 

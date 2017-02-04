@@ -12,8 +12,18 @@
     "circleci": "ava --tap | tap-xunit > test-results.xml"
   },
   "dependencies": {
-    "ava": "^0.18.0",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.1",
+    "gulp-less": "^3.3.0",
+    "purify-css": "^1.1.9"
+  },
+  "devDependencies": {
+    "ava": "^0.18.0",
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-nodemon": "^2.2.1",
     "tap-xunit": "^1.7.0"
   },
   "engines": {
