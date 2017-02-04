@@ -24,6 +24,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-clean-css": "^2.3.2",
     "gulp-nodemon": "^2.2.1",
+    "gulp-purifycss": "^0.2.0",
     "tap-xunit": "^1.7.0"
   },
   "engines": {

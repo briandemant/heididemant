@@ -10,9 +10,13 @@ const stylePath = "src/style/";
 
 gulp.task('serve', ['less', 'nodemon', 'watch'], function() {
 	browserSync.init(null, {
-		proxy: "http://localhost:8080",
-		files: ["public/**/*.*"],
-		port : 3000,
+		ui             : false,
+		open           : false,
+		scrollThrottle : 100,
+		reloadOnRestart: true,
+		proxy          : "http://localhost:8080",
+		files          : ["public/**/*.*"],
+		port           : 3000,
 	});
 });
 
@@ -21,10 +25,11 @@ gulp.task('less', function() {
 	return gulp.src(stylePath + 'style.less')
 		.pipe(less())
 		.pipe(cleanCSS({ compatibility: 'ie9' }))
+		.pipe(purify(['./public/js/*.js', './public/**/*.html']))
 		.pipe(gulp.dest("public/css"))
 		.pipe(browserSync.stream());
 });
-
+  
 gulp.task('nodemon', function(cb) {
 	var started = false;
 
@@ -41,7 +46,7 @@ gulp.task('nodemon', function(cb) {
 })
 
 gulp.task('watch', function() {
-	gulp.watch(stylePath + '*.less', ['less']);  
+	gulp.watch(stylePath + '*.less', ['less']);
 });
 
 gulp.task('default', ['serve']);
