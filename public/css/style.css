@@ -2146,7 +2146,7 @@ body {
 }
 
 #welcome,.section-1 {
-  background-color: #444;
+  background-color: #e8e8e8;
 }
 
 section {
@@ -2166,7 +2166,7 @@ section .tag-line {
 #welcome {
   margin-top: 50px;
   padding: 40px 0 25px;
-  color: #fff;
+  color: #000;
 }
 
 #welcome h1 {
@@ -2175,7 +2175,7 @@ section .tag-line {
 
 #welcome #heidi-img {
   border-radius: 50%;
-  box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 6px #000;
   overflow: hidden;
   width: 120px;
   height: 129px;
@@ -2201,14 +2201,18 @@ section .tag-line {
 }
 
 .section-3 {
-  background-color: #f8f8f8;
+  background-color: #f0f0f0;
 }
 
 .section-5 {
-  background-color: #f0f0f0;
+  background-color: #d0d0d0;
 }
 
 .section-footer {
   background-color: #444;
   color: #fff;
+}
+
+.section-footer .number,.section-footer a {
+  color: #e00;
 }

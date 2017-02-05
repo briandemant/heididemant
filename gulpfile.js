@@ -3,7 +3,7 @@ var browserSync = require('browser-sync').create();
 var less = require('gulp-less');
 var nodemon = require('gulp-nodemon');
 var cleanCSS = require('gulp-clean-css');
-
+var purify = require('gulp-purifycss');
 
 const stylePath = "src/style/";
 
