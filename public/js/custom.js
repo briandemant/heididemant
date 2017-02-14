@@ -8,7 +8,7 @@
         var nav = $($anchor.attr('href'));
         if (nav.length) {
         $('html, body').stop().animate({				
-            scrollTop: $($anchor.attr('href')).offset().top				
+            scrollTop: $($anchor.attr('href')).offset().top	- 60		
         }, 1500, 'easeInOutExpo');
         
         event.preventDefault();
@@ -20,9 +20,9 @@
         event.preventDefault();
         var hash = this.hash;
         $('html, body').animate({
-            scrollTop: $(hash).offset().top
+            scrollTop: $(hash).offset().top	- 60
         }, 900, function(){
-            window.location.hash = hash;
+       //     window.location.hash = hash;
         });
     });
 })(jQuery);
