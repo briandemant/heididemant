@@ -12,7 +12,8 @@ gulp.task('serve', ['less', 'nodemon', 'watch'], function() {
 	browserSync.init(null, {
 		ui             : false,
 		open           : false,
-		scrollThrottle : 100,
+		// scrollThrottle : 100,
+		ghostMode      : { scroll: false },
 		reloadOnRestart: true,
 		proxy          : "http://localhost:8080",
 		files          : ["public/**/*.*"],
@@ -29,12 +30,13 @@ gulp.task('less', function() {
 		.pipe(gulp.dest("public/css"))
 		.pipe(browserSync.stream());
 });
-  
+
 gulp.task('nodemon', function(cb) {
 	var started = false;
 
 	return nodemon({
-		script: 'index.js'
+		script: 'index.js',
+		ignore: ['public', 'src/style', 'src/client']
 	}).on('start', function() {
 		// to avoid nodemon being started multiple times
 		// thanks @matthisk
