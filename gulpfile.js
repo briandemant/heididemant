@@ -26,7 +26,7 @@ gulp.task('less', function() {
 	return gulp.src(stylePath + 'style.less')
 		.pipe(less())
 		.pipe(cleanCSS({ compatibility: 'ie9' }))
-		.pipe(purify(['./public/js/*.js', './public/**/*.html']))
+		// .pipe(purify(['./public/js/*.js', './public/**/*.html']))
 		.pipe(gulp.dest("public/css"))
 		.pipe(browserSync.stream());
 });

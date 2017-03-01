@@ -6,6 +6,7 @@ function chooseNav($anchor) {
 
 function goto(name) {
 	var $target = $("[name='" + name + "']");
+	window.$target = $target;
 	if ($target.length) {
 		$('html, body').stop().animate({
 			scrollTop: $target.offset().top
@@ -13,7 +14,25 @@ function goto(name) {
 	}
 }
 
-$(function() { 
+function gotoId(id) {
+	var $target = $("#" + id);
+	window.$target = $target;
+	if ($target.length) {
+		$('html, body').stop().animate({
+			scrollTop: $target.offset().top - 85
+		}, 1000, 'easeInOutExpo') 
+	}
+}
+
+function highlight(id){
+	var $target = $("#" + id);
+		window.$target = $target;
+	$target.removeClass("highlight");
+    setTimeout(function() {
+	    $target.addClass("highlight");
+    }, 200);
+};
+$(function() {
 	$('.navbar-nav li a').bind('click', function(event) {
 		event.preventDefault();
 		var $anchor = $(this);
