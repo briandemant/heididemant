@@ -64,7 +64,9 @@ section {
 	background-color: #779c3f;
 	background-image: url(/img/background.jpg);
 	background-position-x: center;
-	background-repeat-x: no-repeat;
+	//background-repeat-x: no-repeat;
+	background-size: 100%;
+	
 	color: #fff ;
 	h1 {
 		color: @brand-primary;
@@ -93,6 +95,16 @@ section {
 	}
 
 }
+@media (min-width: 1920px) {
+		#welcome {
+		background-size: 1920px; 
+		}
+		}
+@media (max-width: 960px) {
+		#welcome {
+		background-size: 960px; 
+		}
+		}
 
 section {
 	position: relative;
