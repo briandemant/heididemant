@@ -20,17 +20,17 @@ function gotoId(id) {
 	if ($target.length) {
 		$('html, body').stop().animate({
 			scrollTop: $target.offset().top - 85
-		}, 1000, 'easeInOutExpo') 
+		}, 1000, 'easeInOutExpo')
 	}
 }
 
-function highlight(id){
+function highlight(id) {
 	var $target = $("#" + id);
-		window.$target = $target;
+	window.$target = $target;
 	$target.removeClass("highlight");
-    setTimeout(function() {
-	    $target.addClass("highlight");
-    }, 200);
+	setTimeout(function() {
+		$target.addClass("highlight");
+	}, 200);
 };
 $(function() {
 	$('.navbar-nav li a').bind('click', function(event) {
@@ -51,5 +51,8 @@ $(function() {
 		var anchor = $("[href='" + active + "']");
 		chooseNav($(anchor));
 	}
+
+   // 
+	$('#contact').on('shown.bs.modal', initMap);  
 
 });

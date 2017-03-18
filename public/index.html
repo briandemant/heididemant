@@ -36,13 +36,52 @@
 					<li><a href="#prices-link">Priser</a></li>
 					<li><a href="#teori-link">Teoretisk tilgang</a></li>
 					<li><a href="#about-link">Om mig</a></li>
-					<li class="btn-trial"><a href="#footer-link">Kontakt mig</a></li>
+					<li class="btn-trial"><a href="#" data-target="#contact" data-toggle="modal">Kontakt mig</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!--/ Navigation bar-->
+	<!--Modal box-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<!-- Modal content no 1-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title text-center form-title">Kontakt mig.</h2>
+				</div>
+				<div class="modal-body">
+					<div class="text-center">
+						<h3>Stenhuggervej 5, 5230 Odense M.</h3>
+						<p>email: <a href="mailto:heidi.j.demant@gmail.com">heidi.j.demant@gmail.com</a> -
+						   tlf: <span class="number">41 17 39 21</span></p>
+						<p>Åbningstider: Efter aftale.</p>
 
+					</div> 
+					<div id="gmap"></div>
+					<script>
+						function initMap() {
+							var uluru = { lat: 55.3783002, lng: 10.415543699999944 };
+							var map = new google.maps.Map(document.getElementById('gmap'), {
+								zoom  : 15,
+								center: uluru
+							});
+							var marker = new google.maps.Marker({
+								position: uluru,
+								map     : map
+							});
+						}
+					</script>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script async defer
+	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIrnuPtkOInRa1CYLvZRPcWAQNOSiKeXo&callback=sinitMap">
+	</script>
+	<!--/ Modal box-->
 	<!-- Welcome -->
 	<section id="welcome" class="text-center">
 		<a name="welcome-link" class="section-link"></a>
@@ -286,7 +325,7 @@
 
 			<p><b>Mine værdier:</b> Ærlig, engageret, respekt, ydmyg, oprigtig interesseret, troværdig,
 
-			                        faglig og empatisk.</p> 
+			                        faglig og empatisk.</p>
 
 			<p><b>Kunder:</b> Jeg møder mennesker med oprigtig interesse og ydmyghed.</p>
 
