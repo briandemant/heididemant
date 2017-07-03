@@ -53,6 +53,6 @@ $(function() {
 	}
 
    // 
-	$('#contact').on('shown.bs.modal', initMap);  
-
+	$('#contact').on('shown.bs.modal', initMap);
+	$('#seek').modal('show');
 });

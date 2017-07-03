@@ -12,7 +12,8 @@
 																 stress,tomhedsfølelse,børneopdragelse,børne opdragelse,vejledning om børneopdragelse,pædagogik,
 																 41 17 39 21,41173921,håb">
 
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Source+Sans+Pro:400,900">
+	<link rel="stylesheet" type="text/css"
+	      href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Source+Sans+Pro:400,900">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -40,7 +41,8 @@
 		</div>
 	</nav>
 	<!--/ Navigation bar-->
-	<!--Modal box-->
+
+	<!--Contact box-->
 	<div class="modal fade" id="contact" role="dialog">
 		<div class="modal-dialog modal-lg">
 			<!-- Modal content no 1-->
@@ -52,7 +54,8 @@
 				<div class="modal-body">
 					<div class="text-center">
 						<h3>Stenhuggervej 5, 5230 Odense M.</h3>
-						<p>email: <a href="mailto:heidi.j.demant@gmail.com">heidi.j.demant@gmail.com</a> - tlf: <span class="number">41 17 39 21</span></p>
+						<p>email: <a href="mailto:heidi.j.demant@gmail.com">heidi.j.demant@gmail.com</a> - tlf: <span
+								  class="number">41 17 39 21</span></p>
 						<p>Åbningstider: Efter aftale.</p>
 
 					</div>
@@ -66,7 +69,7 @@
 							});
 							var marker = new google.maps.Marker({
 								position: uluru,
-								map: map
+								map     : map
 							});
 						}
 					</script>
@@ -75,266 +78,324 @@
 
 		</div>
 	</div>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIrnuPtkOInRa1CYLvZRPcWAQNOSiKeXo&callback=sinitMap">
-
+	<script async defer
+	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIrnuPtkOInRa1CYLvZRPcWAQNOSiKeXo&callback=sinitMap"/>
 	</script>
-	<!--/ Modal box-->
-	<!-- Welcome -->
-	<section id="welcome" class="text-center">
-		<a name="welcome-link" class="section-link"></a>
-		<div id="heidi-img" class="round"><img src="img/heidi-small.jpg" alt=""></div>
-		<h2 class="big-text"><span class="tag-line">Professionel rådgivning</span> -
-			<span>med respekt for den enkelte.</span></h2>
+	<!--
+	/ Contact box-->
 
-		<h3>v/ Heidi Demant</h3>
-		<div class="container">
-			<p>
 
-				Jeg stiller spørgsmål, som giver mulighed for at sætte reflekterende tanker i gang. Dette skaber selvindsigt, nye muligheder
-				og fremmer trivsel. Samtalerne skaber bevidsthed om egne kompetencer og kan få troen og håbet tilbage.
-			</p>
+	<!--
+	Seek
+	box-->
+	<div class="modal fade" id="seek" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<!-- Modal content no 1-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title text-center form-title">Klienter søges.</h2>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<p>Jeg er i gang med en uddannelse til narrativ psykoterapeut, som er samtaleterapi.</p><p> Uddannelsen tager
+						   ialt 4 år, jeg er på mit 2. År. ( starter på 3. År til september)</p><p>
+						Narrativ terapi sætter især fokus på klientens fortælling om sig selv, og dermed handlinger og
+						identiteter, skabt ud fra fortællingerne. Vi eksternaliserer problemet, således at det er problemet,
+						der er problemet og ikke personen der er problemet. Ved hjælp af bestemte spørge teknikker sættes
+						dermed fokus på det, det fungerer i livet og væk fra det der ikke fungerer.</p><p>
+						Under min uddannelse har jeg brug for klienter, der har et dilemma eller et problem, de gerne vil i
+						samtaleterapi med.</p><p>
+						Derfor søger jeg klienter. Så skulle du kende en, der ville være interesseret eller måske du selv er
+						interesseret. Kan jeg tilbyde samtaleterapi til reduceret pris.</p><p>
+						<b>Prisen for 2 gange er kr 300,-, fremover kr 200,- pr. Samtale.</b></p><p>
+						Jeg modtager supervision på samtalerne og har selvfølgelig tavshedspligt.</p><p>
+						For nærmere information kan jeg kontaktes på tlf: <span
+							  class="number">41 17 39 21</span> eller email: <a href="mailto:heidi.j.demant@gmail.com">heidi.j.demant@gmail.com</a>
+					</p>
+						<button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+			<!--/ Contact Seek-->
 
-			<p>
-				For mig er du eksperten i eget liv, og du vil finde din egen vej at gå, via samtale og refleksion med mig.
-			</p>
-		</div>
-	</section>
+			<!-- Welcome -->
+			<section id="welcome" class="text-center">
+				<a name="welcome-link" class="section-link"></a>
+				<div id="heidi-img" class="round"><img src="img/heidi-small.jpg" alt=""></div>
+				<h2 class="big-text"><span class="tag-line">Professionel rådgivning</span> -
+					<span>med respekt for den enkelte.</span></h2>
 
-	<section class="section-2">
-		<a name="offer-short-link" class="section-link"></a>
-		<style>
-			#offer-boxes .box {
-				border: 1px solid #476C0F;
-				/*background-color: #779C3F;*/
-				background-image: url(/img/background.jpg);
-				background-position-x: center;
-				background-repeat-x: no-repeat;
-				background-size: 600px;
-				border-radius: 5%;
-				margin: 10px 20px 70px 20px;
-				padding: 5px;
-				height: 150px;
-				min-width: 80%;
-				cursor: pointer;
-				display: table;
-			}
-			
-			#offer-boxes .box p {
-				min-height: 75px;
-				font-size: 20px;
-				text-align: center;
-				color: #fff;
-				margin: 20px 0;
-				display: table-cell;
-				vertical-align: middle;
-			}
-			
-			#offer-boxes .box:hover {
-				box-shadow: 0 0 15px #555;
-			}
-			
-			@keyframes highlight {
-				0% {
-					background-color: #8ecb77;
+				<h3>v/ Heidi Demant</h3>
+				<div class="container">
+					<p>
+
+						Jeg stiller spørgsmål, som giver mulighed for at sætte reflekterende tanker i gang. Dette skaber
+						selvindsigt, nye muligheder
+						og fremmer trivsel. Samtalerne skaber bevidsthed om egne kompetencer og kan få troen og håbet tilbage.
+					</p>
+
+					<p>
+						For mig er du eksperten i eget liv, og du vil finde din egen vej at gå, via samtale og refleksion med
+						mig.
+					</p>
+				</div>
+			</section>
+
+			<section class="section-2">
+				<a name="offer-short-link" class="section-link"></a>
+				<style>
+					#offer-boxes .box {
+					border: 1px solid #476C0F;
+					/*background-color: #779C3F;*/
+					background-image: url(/img/background.jpg);
+					background-position-x: center;
+					background-repeat-x: no-repeat;
+					background-size: 600px;
+					border-radius: 5%;
+					margin: 10px 20px 70px 20px;
+					padding: 5px;
+					height: 150px;
+					min-width: 80%;
+					cursor: pointer;
+					display: table;
+				}
+
+					#offer-boxes .box p {
+					min - height: 75px;
+					font-size: 20px;
+					text-align: center;
+					color: #fff;
+					margin: 20px 0;
+					display: table-cell;
+					vertical-align: middle;
+				}
+
+					#offer-boxes .box:hover {
+					box - shadow: 0 0 15px #555;
+				}
+
+					@keyframes highlight {
+					0 % {
+						background-color: #8ecb77;
 					opacity: 1;
 				}
-				22% {
+					22% {
 					background-color: #9ce084;
 				}
-				77% {
+					77% {
 					background-color: #b5ff9b;
 				}
-				100% {
+					100% {
 					/*background-color: #fff;*/
 					background-color: default;
 				}
-			}
-			
-			.highlight {
-				-webkit-animation-name: highlight;
-				-webkit-animation-duration: 1000ms;
-				-webkit-animation-iteration-count: 1;
-				-webkit-animation-timing-function: ease-in-out;
-			}
-		</style>
+				}
 
-		<div class="container" id="offer-boxes">
+					.highlight {
+					-webkit - animation - name: highlight;
+					-webkit-animation-duration: 1000ms;
+					-webkit-animation-iteration-count: 1;
+					-webkit-animation-timing-function: ease-in-out;
+				}
+				</style>
+
+				<div class="container" id="offer-boxes">
 
 
-			<div class="row">
-				<div class="col-sm-offset-4 col-sm-4">
-					<center>
-						<h2>Jeg tilbyder</h2>
-					</center>
+					<div class="row">
+						<div class="col-sm-offset-4 col-sm-4">
+							<center>
+								<h2>Jeg tilbyder</h2>
+							</center>
 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="box" onclick="gotoId('where-1')">
+								<p>
+									Rådgivning til familier, par, individuel, unge og børn.
+								</p>
+
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="box" onclick="gotoId('where-2')">
+								<p>Rådgivning til familier, hvor jeg kommer på besøg i hjemmet.</p>
+							</div>
+
+						</div>
+						<div class="col-sm-4">
+							<div class="box" onclick="gotoId('where-3')">
+								<p>Komplet rådgivningsforløb til institutioner.</p>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="box" onclick="gotoId('where-1')">
-						<p>
-							Rådgivning til familier, par, individuel, unge og børn.
-						</p>
+			</section>
+
+			<section class="section-5">
+				<a name="advices-link" class="section-link"></a>
+				<div class="container">
+					<div id="where-1">
+						<h3>Rådgivning til familier, par, individuel, unge og børn.</h3>
+						<p><b>Jeg kan hjælpe med:</b></p>
+						<ul>
+							<li>Vanskeligheder eller konflikter i dine relationer f.eks. familier, venner, parforhold og job.
+							</li>
+							<li>Følelsen af at blive misforstået i mange sammenhænge.</li>
+							<li>Lavt selvværd, svære følelser og kritiske tanker om dig selv.</li>
+							<li>Modet til at træffe svære beslutninger.</li>
+							<li>Stress i privatlivet eller på arbejdet.</li>
+							<li>En indre uro eller tomhedsfølelse, du ikke kan sætte ord på.</li>
+							<li>Børneopdragelse.</li>
+							<li>Unge eller børn der ikke trives.</li>
+							<li>Parforhold eller ægteskab. Gode relationer. Vanskeligheder der står i vejen for at leve det liv
+							    der ønskes.
+							</li>
+						</ul>
+					</div>
+					<div id="where-2">
+						<h3>Rådgivning til familier, hvor jeg kommer på besøg i hjemmet.</h3>
+						<p><b>Jeg kan hjælpe med:</b></p>
+						<ul>
+							<li>Observationer, rådgivning og vejledning om f.eks. børneopdragelse.</li>
+							<li>Børn og unge som ikke trives. Jeg kigger på hvad der kan ligge bag barnets/den unges adfærd og
+							    handlinger. Jeg vil have
+							    fokus på hvorfor barnet/den unge reagerer som han/hun gør, hvad er intentionen bag?
+							</li>
+							<li>Hjælp i svære situationer. Jeg kan guide, rådgive og vejlede om de problemer og vanskeligheder
+							    der står i vejen for
+							    at leve det familieliv der ønskes.
+							</li>
+						</ul>
+					</div>
+					<div id="where-3">
+
+						<h3> Komplet rådgivningsforløb til institutioner.</h3>
+						<p><b>Jeg kan hjælpe med:</b></p>
+						<ul>
+							<li>Observationer, rådgivning, vejledning, sparring og skriftlig feedback.</li>
+							<li>Børn eller personale som ikke trives. Jeg kan observere og komme med løsningsforslag til at
+							    forbedre situationen.
+							</li>
+							<li>Forståelse af børns adfærd og handlinger. Hvorfor reagerer barnet som det gør? hvad er
+							    intentionen bag?
+							</li>
+							<li>Bedre trivsel og arbejdsmiljø. Jeg kigger på struktur, organisering, pædagogik,
+							    børnefællesskaberne, samspillet/relationerne
+							    mellem ledelse/personale, personale/personale, barn/barn, personale/barn.
+
+							</li>
+						</ul>
+
 
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="box" onclick="gotoId('where-2')">
-						<p>Rådgivning til familier, hvor jeg kommer på besøg i hjemmet.</p>
-					</div>
+			</section>
+			<section class="section-4">
+				<a name="prices-link" class="section-link"></a>
+				<div class="container">
+
+					<h3 id="priser">Priser:</h3>
+
+					<ul>
+						<li>Individuel, unge og børn : 1 time 600 kr</li>
+
+						<li>Familier og par : 1&#xbd; time 800 kr</li>
+
+						<li>Institutioner : Ring for nærmere information (41 17 39 21).</li>
+					</ul>
 
 				</div>
-				<div class="col-sm-4">
-					<div class="box" onclick="gotoId('where-3')">
-						<p>Komplet rådgivningsforløb til institutioner.</p>
-					</div>
+			</section>
+			<section class="section-3">
+				<a name="teori-link" class="section-link"></a>
+				<div class="container">
+					<h3 id="teori">Teoretisk tilgang:</h3>
+					<p>Jeg tager udgangspunkt i den narrative og systemiske tilgang.</p>
+
+					<h4><b>Narrative tilgang:</b></h4>
+					<p>Udtrykket narrativ betyder fortælling eller historie. Det er de fortællinger, vi fortæller om os selv,
+					   der har betydning
+					   for, hvordan vi ser os selv, og hvordan vi lever vores liv.
+					</p>
+					<p>
+						Tilgangen handler også om at se væk fra, at problemet bunder i indre omstændigheder ved eget selv, men
+						problemet er problemet
+						og personen er personen.</p>
+
+					<h4><b>Systemiske tilgang:</b></h4>
+					<p> Udtrykket systemisk handler om at forstå de relationer, der er mellem mennesker. Kunne mestre at
+					    sætte sig i andres sted.
+					    Problemet tilhører ikke individet, men opstår i sociale samspil.</p>
+					<p>Mine eller dine egne forståelser er ikke de eneste forståelser af en situation, der er mange
+					   forskellige forståelser.
+					   Det kan hjælpe til at se verden på nye måder og dermed handle anderledes.</p>
+
 				</div>
-			</div>
-		</div>
-	</section>
+			</section>
 
-	<section class="section-5">
-		<a name="advices-link" class="section-link"></a>
-		<div class="container">
-			<div id="where-1">
-				<h3>Rådgivning til familier, par, individuel, unge og børn.</h3>
-				<p><b>Jeg kan hjælpe med:</b></p>
-				<ul>
-					<li>Vanskeligheder eller konflikter i dine relationer f.eks. familier, venner, parforhold og job.</li>
-					<li>Følelsen af at blive misforstået i mange sammenhænge.</li>
-					<li>Lavt selvværd, svære følelser og kritiske tanker om dig selv.</li>
-					<li>Modet til at træffe svære beslutninger.</li>
-					<li>Stress i privatlivet eller på arbejdet.</li>
-					<li>En indre uro eller tomhedsfølelse, du ikke kan sætte ord på.</li>
-					<li>Børneopdragelse.</li>
-					<li>Unge eller børn der ikke trives.</li>
-					<li>Parforhold eller ægteskab. Gode relationer. Vanskeligheder der står i vejen for at leve det liv der ønskes.
-					</li>
-				</ul>
-			</div>
-			<div id="where-2">
-				<h3>Rådgivning til familier, hvor jeg kommer på besøg i hjemmet.</h3>
-				<p><b>Jeg kan hjælpe med:</b></p>
-				<ul>
-					<li>Observationer, rådgivning og vejledning om f.eks. børneopdragelse.</li>
-					<li>Børn og unge som ikke trives. Jeg kigger på hvad der kan ligge bag barnets/den unges adfærd og handlinger. Jeg vil have
-						fokus på hvorfor barnet/den unge reagerer som han/hun gør, hvad er intentionen bag?
-					</li>
-					<li>Hjælp i svære situationer. Jeg kan guide, rådgive og vejlede om de problemer og vanskeligheder der står i vejen for
-						at leve det familieliv der ønskes.
-					</li>
-				</ul>
-			</div>
-			<div id="where-3">
+			<section class="section-4">
+				<a name="about-link" class="section-link"></a>
+				<div class="container">
 
-				<h3> Komplet rådgivningsforløb til institutioner.</h3>
-				<p><b>Jeg kan hjælpe med:</b></p>
-				<ul>
-					<li>Observationer, rådgivning, vejledning, sparring og skriftlig feedback.</li>
-					<li>Børn eller personale som ikke trives. Jeg kan observere og komme med løsningsforslag til at forbedre situationen.
-					</li>
-					<li>Forståelse af børns adfærd og handlinger. Hvorfor reagerer barnet som det gør? hvad er intentionen bag?
-					</li>
-					<li>Bedre trivsel og arbejdsmiljø. Jeg kigger på struktur, organisering, pædagogik, børnefællesskaberne, samspillet/relationerne
-						mellem ledelse/personale, personale/personale, barn/barn, personale/barn.
+					<h2>Om mig:</h2>
 
-					</li>
-				</ul>
+					<p><b>Mine værdier:</b> Ærlighed, engagement, respekt, ydmyghed, oprigtig interesse, troværdig, faglighed
+					                        og empati.</p>
 
+					<p><b>Kunder:</b> Jeg møder mennesker med oprigtig interesse og ydmyghed.</p>
 
-			</div>
-		</div>
-	</section>
-	<section class="section-4">
-		<a name="prices-link" class="section-link"></a>
-		<div class="container">
+					<p><b>Kultur:</b> Jeg udviser respekt, og jeg tør at tage ansvar.</p>
 
-			<h3 id="priser">Priser:</h3>
+					<p><b>Produkt:</b> Jeg yder en professionel rådgivning, hvor du bliver mødt med respekt.
+					</p>
 
-			<ul>
-				<li>Individuel, unge og børn : 1 time 600 kr</li>
+					<p><b>Person:</b> Jeg er troværdig, engageret, empatisk og faglig dygtig.</p>
 
-				<li>Familier og par : 1&#xbd; time 800 kr</li>
+					<p><b>Mine leveregler:</b>
+						<ul>
+							<li>Tavshedspligt er en selvfølgelighed</li>
+							<li>Stor faglighed</li>
+							<li>Fokus på det enkelte menneske</li>
+							<li>Respekt og oprigtig interesse</li>
+							<li>Refleksion til udvikling og selvindsigt</li>
+						</ul>
+					</p>
 
-				<li>Institutioner : Ring for nærmere information (41 17 39 21).</li>
-			</ul>
+					<p><b>Vision:</b> Min rådgivning skal kunne tænde gnisten og give håb.</p>
 
-		</div>
-	</section>
-	<section class="section-3">
-		<a name="teori-link" class="section-link"></a>
-		<div class="container">
-			<h3 id="teori">Teoretisk tilgang:</h3>
-			<p>Jeg tager udgangspunkt i den narrative og systemiske tilgang.</p>
+					<p><b>Mission:</b> Rådgivning der vil skabe udvikling, selvindsigt og ”jeg kan godt”- følelse.
+					</p>
 
-			<h4><b>Narrative tilgang:</b></h4>
-			<p>Udtrykket narrativ betyder fortælling eller historie. Det er de fortællinger, vi fortæller om os selv, der har betydning
-				for, hvordan vi ser os selv, og hvordan vi lever vores liv.
-			</p>
-			<p>
-				Tilgangen handler også om at se væk fra, at problemet bunder i indre omstændigheder ved eget selv, men problemet er problemet
-				og personen er personen.</p>
+					<p><b>Uddannelser/tidligere erhverv:</b> Uddannet pædagog. <br> Jeg er i gang med en 4 årig uddannelse
+					                                                                til psykoterapeut
+					                                                                ved systemisk institut for familieterapi.
+					                                                                (SIF) Det er den systemiske og narrative
+					                                                                tilgang jeg uddannes i.
+					</p>
 
-			<h4><b>Systemiske tilgang:</b></h4>
-			<p> Udtrykket systemisk handler om at forstå de relationer, der er mellem mennesker. Kunne mestre at sætte sig i andres sted.
-				Problemet tilhører ikke individet, men opstår i sociale samspil.</p>
-			<p>Mine eller dine egne forståelser er ikke de eneste forståelser af en situation, der er mange forskellige forståelser.
-				Det kan hjælpe til at se verden på nye måder og dermed handle anderledes.</p>
+					<p><b>Pædagogisk Diplommodul:</b> Pædagogisk viden og forskning, Vejledning, Inklusion.</p>
 
-		</div>
-	</section>
+					<p>Flere års erfaring fra daginstitutioner.</p>
 
-	<section class="section-4">
-		<a name="about-link" class="section-link"></a>
-		<div class="container">
+					<p>Jeg har erfaring med at yde pædagogisk støtte og rådgivning til forskellige børnehuse.</p>
 
-			<h2>Om mig:</h2>
+					<p>Jeg har tidligere rådgivet personale på flere institutioner i forhold til pædagogik, inkluderende
+					   læringsmiljøer, struktur
+					   og indretning. Jeg har vejledt forældre i forhold til specifikke udfordringer f.eks.
+					   børneopdragelse.</p>
 
-			<p><b>Mine værdier:</b> Ærlighed, engagement, respekt, ydmyghed, oprigtig interesse, troværdig, faglighed og empati.</p>
+					<p>Jeg har erfaring med tværfagligt samarbejde.</p>
 
-			<p><b>Kunder:</b> Jeg møder mennesker med oprigtig interesse og ydmyghed.</p>
-
-			<p><b>Kultur:</b> Jeg udviser respekt, og jeg tør at tage ansvar.</p>
-
-			<p><b>Produkt:</b> Jeg yder en professionel rådgivning, hvor du bliver mødt med respekt.
-			</p>
-
-			<p><b>Person:</b> Jeg er troværdig, engageret, empatisk og faglig dygtig.</p>
-
-			<p><b>Mine leveregler:</b>
-				<ul>
-					<li>Tavshedspligt er en selvfølgelighed</li>
-					<li>Stor faglighed</li>
-					<li>Fokus på det enkelte menneske</li>
-					<li>Respekt og oprigtig interesse</li>
-					<li>Refleksion til udvikling og selvindsigt</li>
-				</ul>
-			</p>
-
-			<p><b>Vision:</b> Min rådgivning skal kunne tænde gnisten og give håb.</p>
-
-			<p><b>Mission:</b> Rådgivning der vil skabe udvikling, selvindsigt og ”jeg kan godt”- følelse.
-			</p>
-
-			<p><b>Uddannelser/tidligere erhverv:</b> Uddannet pædagog. <br> Jeg er i gang med en 4 årig uddannelse til psykoterapeut
-				ved systemisk institut for familieterapi. (SIF) Det er den systemiske og narrative tilgang jeg uddannes i.
-			</p>
-
-			<p><b>Pædagogisk Diplommodul:</b> Pædagogisk viden og forskning, Vejledning, Inklusion.</p>
-
-			<p>Flere års erfaring fra daginstitutioner.</p>
-
-			<p>Jeg har erfaring med at yde pædagogisk støtte og rådgivning til forskellige børnehuse.</p>
-
-			<p>Jeg har tidligere rådgivet personale på flere institutioner i forhold til pædagogik, inkluderende læringsmiljøer, struktur
-				og indretning. Jeg har vejledt forældre i forhold til specifikke udfordringer f.eks. børneopdragelse.</p>
-
-			<p>Jeg har erfaring med tværfagligt samarbejde.</p>
-
-			<p>
-				Jeg deltager løbende i workshops, kurser og konferencer for at tilegne mig ny viden.</p>
-			<p style="text-align: right;color: #779C3F">.. håber at høre fra dig, Heidi</b>
-			</p>
+					<p>
+						Jeg deltager løbende i workshops, kurser og konferencer for at tilegne mig ny viden.</p>
+					<p style="text-align: right;color: #779C3F">.. håber at høre fra dig, Heidi</b>
+				</p>
 		</div>
 	</section>
 	<section class="section-footer">
