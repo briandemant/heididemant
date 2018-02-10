@@ -51,4 +51,5 @@ gulp.task('watch', function() {
 	gulp.watch(stylePath + '*.less', ['less']);
 });
 
+gulp.task('build', ['less']);
 gulp.task('default', ['serve']);
