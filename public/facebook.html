@@ -1,56 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Heidi Demant</title>
-	<meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-	<meta name="keywords"
-	      content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heidi Demant</title>
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+    <meta name="keywords"
+          content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
-	<link rel="stylesheet" type="text/css"
-	      href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Source+Sans+Pro:400,900">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- =======================================================
-		 Theme Name: Mentor
-		 Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-		 Author: BootstrapMade.com
-		 Author URL: https://bootstrapmade.com
-	======================================================= -->
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Source+Sans+Pro:400,900">
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+    <!-- =======================================================
+         Theme Name: Mentor
+         Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+         Author: BootstrapMade.com
+         Author URL: https://bootstrapmade.com
+    ======================================================= -->
 </head>
 <body>
 
-	<!--/ Modal box-->
-	<!-- Welcome -->
-	<section id="welcome" class="text-center">
-		<h2 class="big-text"><span class="tag-line">Professionel rådgivning</span> -
-			<span>med respekt for den enkelte.</span></h2>
 
-		<h3>www.heididemant.dk</h3>
+<section id="welcome">
+    <section id="ipadwidth">
+    </section>
+    <h2 class="big-text"><span> Familierådgivning og terapi</span> -
+        <span>med respekt for den enkelte.</span></h2>
+    <h2 class="big-text">www.heididemant.dk</h2>
 
-	</section>
-	<section id="ipadwidth">
+</section>
+<div id="notes" class="big-text">
+    <label for="ipadcheck">
+        Check iPad width <br>
+        <input id="ipadcheck" checked type="checkbox" onchange="checkIpad()"> uncheck before screenshot
+        <br> Vælg #welcome og ctrl-p og aktiver node screenshot
+    </label>
+</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
-	</section>
-	<style>
-		#welcome {
-			height: 315px;
+    body {
+        background-color: #376333;
+    }
 
-			width: 851px;
-		}
+    #welcome {
+        position: relative;
+        background-image: url("img/facebook-background.jpg");
+        /*background-repeat: no-repeat;*/
+        /*border:1px solid red;*/
+        height: 315px;
+        width: 850px;
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        padding-top: 80px;
+    }
 
-		#ipadwidth {
-			height: 15px;
-			background: hotpink;
-			width: 640px;
-			margin-left: 105px;
-		}
+    .big-text {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+    }
 
-		.big-text {
-			margin-top: 80px;
-			font-size: 24px;
-		}
-	</style>
+    #notes {
+        width: 850px;
+        color: #fff;
+        text-align: center;
+        padding-top: 80px;
+    }
 
+    .hidden {
+        display: none;
+    }
+
+    #ipadwidth {
+        position: absolute;
+        opacity: 90%;
+        height: 315px;
+        top: 0;
+        background: rgba(255, 0, 200, 0.2);
+        width: 640px;
+        margin-left: 105px;
+    }
+</style>
+<script>
+	const el = document.getElementById("ipadwidth")
+
+	function checkIpad() {
+		if (el.className == "") {
+			el.className = "hidden"
+		} else {
+			el.className=""
+        }
+	}
+</script>
 </body>
 </html>
