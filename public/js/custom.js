@@ -68,8 +68,8 @@ $(function () {
 
 	//
 	$('#contact').on('shown.bs.modal', initMap)
-	if (document.location.hostname !== 'localhost') {
-		$('#seek').modal('show')
-	}
+	//if (document.location.hostname !== 'localhost') {
+	//	$('#seek').modal('show')
+	//}
 })
 
