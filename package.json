@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "deploy": "git push",
+    "dev": "gulp",
     "test": "ava",
     "snapci": "ava -v",
     "circleci": "ava --tap | tap-xunit > test-results.xml"
