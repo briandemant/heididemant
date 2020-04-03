@@ -1,13 +1,13 @@
 # [heididemant.dk](https://heididemant.dk)
 
- > Heidi Demant - Professionel rÂdgivning af psykoterapeut studerende
+ > Heidi Demant - Professionel r√•dgivning af psykoterapeut studerende
 
 Building a website for a friend of mine.
 
 #### To do:
 - [x] Select template
 - [x] Get first draft of text
-- [ ] Make first draft of html with hardcoded content
+- [x] Make first draft of html with hardcoded content
 
 #### Nice to do:
 - [ ] Minify js + css + html
@@ -15,7 +15,7 @@ Building a website for a friend of mine.
 - [ ] Add tests (clientside js, asset sizes)
 - [ ] [Purify CSS](https://github.com/purifycss/purifycss)
 - [ ] Make content editable
-- [ ] SSL / Cloudflare?
+- [x] SSL / Cloudflare?
 
 ## Fun:
 
