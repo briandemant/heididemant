@@ -12,7 +12,7 @@
     "circleci": "ava --tap | tap-xunit > test-results.xml"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "express": "^4.14.1",
     "gulp-less": "^3.3.0",
     "purify-css": "^1.1.9"
